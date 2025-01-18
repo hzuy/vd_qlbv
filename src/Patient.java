@@ -26,10 +26,8 @@ public class Patient extends User {
     public void LogIn(){
         System.out.println("Nhap ten tai khoan : ");
         this.userName=sc.nextLine();
-        sc.nextLine();
         System.out.println("Nhap mat khau  : ");
         this.password=sc.nextLine();
-        sc.nextLine();
     }
     public void LogOut(){
         System.out.println("Ban da dang xuat thanh cong !");

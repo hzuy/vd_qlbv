@@ -2,9 +2,11 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-    User u1=new User();
-    u1.inputData();
-        System.out.println(u1.toString());
+    Patient p1=new Patient();
+    p1.inputData();
+    p1.LogIn();
+    p1.outputData();
+    
 
     }
 }
